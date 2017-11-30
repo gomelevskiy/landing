@@ -1,0 +1,36 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)  {
+
+}
+
+@media only screen and (max-width: 480px){
+    .head{
+        position: relative;
+        /*text-align: left;*/
+        height: auto;
+    }
+    .telefoni{
+        padding-left: 0;
+        margin-left: 0;
+        border: none;
+    }
+    .tab-content {
+        min-height: 1257px;
+    }
+}
+@media screen and (max-width: 991px){
+    .tab-content {
+        min-height: 1257px!important;
+    }
+    .adress{
+        width: 100%;
+    }
+    .copyright{
+        font-size: 8pt;
+    }
+    .left{
+        left:0px;
+    }
+    .right{
+        right:0px;
+    }
+}

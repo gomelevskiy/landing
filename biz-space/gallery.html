@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Коворкинг Северная Долина</title>
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nivo-slider.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+
+    <link href="css/gallery/demo.css" rel="stylesheet">
+    <link href="css/gallery/style1.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body style="overflow-x:hidden;">
+
+<!--NAVBAR-AREA START-->
+<nav role="navigation" class="navbar navbar-default">
+
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><img src="img/logo.png"></a>
+    </div>
+
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="main.html">О нас</a></li>
+            <li><a href="service.html">Услуги</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="main.html"><img width="19px" src="img/vk.png"></a></li>
+        </ul>
+    </div>
+</nav>
+<!--NAVBAR-AREA END-->
+
+<!--GALLERY HEADER START-->
+<section class="gallery-header">
+    <div class="container" style="padding-top: 111px;;">
+        <h1>ГАЛЕРЕЯ</h1>
+        <ul class="breadcrumb-custom">
+            <li><a href="#">О нас</a></li>
+            <li class="divider-crums">/</li>
+            <li>Галерея</li>
+        </ul>
+    </div>
+</section>
+<!--GALLERY HEADER END-->
+
+<!--GALLERY MAIN START-->
+<section class="gallery-content">
+    <div class="container" style="padding-top: 30px; padding-bottom: 30px;">
+        <h2><span>Наш</span> офис</h2>
+        <div class="divider"></div>
+        <p>Здесь вы можете увидеть как выглядит наш офис, лучшие условия для работы<br/>
+            и комфортное время припровождения</p>
+    </div>
+</section>
+<section class="modul-gallery">
+    <div class="container">
+        <div class="content">
+            <div class="grid">
+                <div class="grid__item cub" data-size="392x392">
+                    <div class="overflow"><img src="img/btn-find.png"/></div>
+                    <a href="images/image1.jpg" class="img-wrap"><img src="images/image1.jpg" alt="img01" /></a>
+                </div>
+                <div class="grid__item" data-size="778x392">
+                    <div class="overflow"><img src="img/btn-find.png"/></div>
+                    <a href="images/image2.jpg" class="img-wrap"><img src="images/image2.jpg" alt="img02" /></a>
+                </div>
+                <div class="grid__item" data-size="392x392">
+                    <div class="overflow"><img src="img/btn-find.png"/></div>
+                    <a href="images/image3.jpg" class="img-wrap"><img src="images/image3.jpg" alt="img03" /></a>
+                </div>
+                <div class="grid__item cub" data-size="778x392">
+                    <div class="overflow"><img src="img/btn-find.png"/></div>
+                    <a href="images/image4.jpg" class="img-wrap"><img src="images/image4.jpg" alt="img04" /></a>
+                </div>
+            </div>
+            <!-- /grid -->
+            <div class="preview">
+                <button class="action action--close"><span class="text-hidden">x</span></button>
+                <div class="description description--preview"></div>
+            </div>
+            <!-- /preview -->
+        </div>
+        <!-- /content -->
+
+    </div>
+</section>
+<!--GALLERY MAIN END-->
+
+<!--FOOTER START-->
+<footer class="footer">
+    <div class="container" style="margin-top: 36px;">
+        <div class="col-md-6 col-sm-12 col-xs-12 text-left">
+            <p>Все права защищены <span>2015</span>. Coworking <span>Северная Долина</span></p>
+        </div>
+        <div class="col-md-6 text-right">
+            <ul class="footer-menu">
+                <li><a href="main.html">О нас</a></li>
+                <li><a href="service.html">Услуги</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="main.html"><img width="19px" src="img/vk.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="top" class="top"></div>
+</footer>
+<!--FOOTER END-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.meanmenu.js"></script>
+<script src="js/jquery.nivo.slider.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/gallery/modernizr-custom.js"></script>
+<script src="js/gallery/imagesloaded.pkgd.min.js"></script>
+<script src="js/gallery/masonry.pkgd.min.js"></script>
+<script src="js/gallery/classie.js"></script>
+<script src="js/gallery/main.js"></script>
+
+<script>
+    (function() {
+        // create SVG circle overlay and append it to the preview element
+        function createCircleOverlay(previewEl) {
+            var dummy = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            dummy.setAttributeNS(null, 'version', '1.1');
+            dummy.setAttributeNS(null, 'width', '100%');
+            dummy.setAttributeNS(null, 'height', '100%');
+            dummy.setAttributeNS(null, 'class', 'overlay');
+            var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+            circle.setAttributeNS(null, 'cx', 0);
+            circle.setAttributeNS(null, 'cy', 0);
+            circle.setAttributeNS(null, 'r', Math.sqrt(Math.pow(previewEl.offsetWidth,2) + Math.pow(previewEl.offsetHeight,2)));
+            dummy.appendChild(g);
+            g.appendChild(circle);
+            previewEl.appendChild(dummy);
+        }
+
+        new GridFx(document.querySelector('.grid'), {
+            onInit : function(instance) {
+                createCircleOverlay(instance.previewEl);
+            },
+            onResize : function(instance) {
+                instance.previewEl.querySelector('svg circle').setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+            },
+            onOpenItem : function(instance, item) {
+                // item's image
+                var gridImg = item.querySelector('img'),
+                        gridImgOffset = gridImg.getBoundingClientRect(),
+                        win = {width: document.documentElement.clientWidth, height: window.innerHeight},
+                        SVGCircleGroupEl = instance.previewEl.querySelector('svg > g'),
+                        SVGCircleEl = SVGCircleGroupEl.querySelector('circle');
+
+                SVGCircleEl.setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+                // set the transform for the SVG g node. This will animate the circle overlay. The origin of the circle depends on the position of the clicked item.
+                if( gridImgOffset.left + gridImg.offsetWidth/2 < win.width/2 ) {
+                    SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(' + win.width + ', ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+                }
+                else {
+                    SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(0, ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+                }
+            }
+        });
+    })();
+</script>
+
+</body>
+</html>
